@@ -12,3 +12,4 @@ C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeS
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Presentación\bin\Debug\ClassLibrary1.pdb
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Presentación\bin\Debug\InfraestructuraPersistencia.pdb
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Presentación\obj\Debug\Presentación.csproj.CopyComplete
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Presentación\bin\Debug\MySql.Data.dll

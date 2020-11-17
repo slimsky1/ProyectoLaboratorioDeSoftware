@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace Dominio.Repositorio
 {
-   public interface IRepository
+   public interface IRepository<T> where T : Cliente
     {
-        List<Cliente> GetAll();
-         Cliente GetById();
-        bool Insert(Cliente cliente);
-        bool Update(Cliente cliente);
+        List<T> GetAll();
+        T GetById();
+        bool Insert(T cliente);
+        bool Update(T cliente);
         bool Delete(int id);
     }
 }

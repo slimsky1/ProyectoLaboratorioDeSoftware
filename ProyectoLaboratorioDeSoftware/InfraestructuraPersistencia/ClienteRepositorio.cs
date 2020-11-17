@@ -2,13 +2,11 @@
 using Dominio.Repositorio;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
 
 namespace InfraestructuraPersistencia
 {
-    public class ClienteRepositorio : IRepository
+    public class ClienteRepositorio : IRepository<Cliente>
     {
         public bool Delete(int id)
         {
@@ -27,7 +25,7 @@ namespace InfraestructuraPersistencia
 
         public bool Insert(Cliente cliente)
         {
-            return true;
+            throw new NotImplementedException();
         }
 
         public bool Update(Cliente cliente)
