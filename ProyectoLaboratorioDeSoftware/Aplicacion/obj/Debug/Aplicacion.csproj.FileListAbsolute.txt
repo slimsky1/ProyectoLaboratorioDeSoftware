@@ -1,0 +1,50 @@
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Aplicacion.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Aplicacion.pdb
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\ClassLibrary1.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\InfraestructuraPersistencia.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\ClassLibrary1.pdb
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\InfraestructuraPersistencia.pdb
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\obj\Debug\Aplicacion.csprojAssemblyReference.cache
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\obj\Debug\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\obj\Debug\Aplicacion.csproj.CopyComplete
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\obj\Debug\Aplicacion.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\obj\Debug\Aplicacion.pdb
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\MySql.Data.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Aplicacion.dll.config
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Aplicacion.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Aplicacion.pdb
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\ClassLibrary1.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\InfraestructuraPersistencia.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\MySql.Data.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Google.Protobuf.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Zstandard.Net.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\K4os.Compression.LZ4.Streams.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\BouncyCastle.Crypto.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Ubiety.Dns.Core.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Renci.SshNet.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\System.Memory.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\System.Buffers.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\K4os.Compression.LZ4.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\K4os.Hash.xxHash.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\netstandard.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\System.Numerics.Vectors.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\ClassLibrary1.pdb
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\InfraestructuraPersistencia.pdb
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\InfraestructuraPersistencia.dll.config
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\MySql.Data.xml
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Google.Protobuf.pdb
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Google.Protobuf.xml
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\K4os.Compression.LZ4.Streams.xml
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Renci.SshNet.xml
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\System.Memory.xml
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\System.Buffers.xml
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\K4os.Compression.LZ4.xml
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\K4os.Hash.xxHash.xml
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\System.Numerics.Vectors.xml
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\obj\Debug\Aplicacion.csprojAssemblyReference.cache
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\obj\Debug\Aplicacion.csproj.CoreCompileInputs.cache
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\obj\Debug\Aplicacion.csproj.CopyComplete
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\obj\Debug\Aplicacion.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\obj\Debug\Aplicacion.pdb
