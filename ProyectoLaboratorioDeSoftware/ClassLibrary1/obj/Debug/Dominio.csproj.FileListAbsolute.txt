@@ -4,3 +4,9 @@ C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeS
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\ClassLibrary1\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\ClassLibrary1\obj\Debug\Dominio.csprojAssemblyReference.cache
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\ClassLibrary1\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

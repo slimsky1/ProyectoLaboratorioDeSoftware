@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Dominio.Entidades
+{
+
+   public class Direccion : IEntity
+    {
+        public int id  {get; set;}
+        public int fkClients { get; set; }
+        public string Calle { get; set; }
+        public int Altura { get; set; }
+
+
+        public bool Validate()
+        {
+            if(this.Calle != String.Empty)
+            {
+
+                return false;
+            }
+            return true;
+        }
+
+        public bool Guardar()
+        {
+            //insert into;
+            return true;
+        }
+
+
+
+    }
+}
