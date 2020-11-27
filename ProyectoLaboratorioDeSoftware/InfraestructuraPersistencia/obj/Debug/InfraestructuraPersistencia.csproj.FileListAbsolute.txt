@@ -8,133 +8,19 @@ C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeS
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\obj\Debug\InfraestructuraPersistencia.dll
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\obj\Debug\InfraestructuraPersistencia.pdb
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\MySql.Data.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\InfraestructuraPersistencia.dll.config
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\InfraestructuraPersistencia.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\InfraestructuraPersistencia.pdb
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\Microsoft.Win32.Primitives.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\netstandard.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.AppContext.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Collections.Concurrent.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Collections.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Collections.NonGeneric.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Collections.Specialized.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.ComponentModel.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.ComponentModel.EventBasedAsync.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.ComponentModel.Primitives.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.ComponentModel.TypeConverter.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Console.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Data.Common.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Diagnostics.Contracts.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Diagnostics.Debug.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Diagnostics.FileVersionInfo.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Diagnostics.Process.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Diagnostics.StackTrace.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Diagnostics.Tools.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Diagnostics.TraceSource.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Diagnostics.Tracing.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Drawing.Primitives.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Dynamic.Runtime.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Globalization.Calendars.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Globalization.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Globalization.Extensions.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.IO.Compression.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.IO.Compression.ZipFile.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.IO.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.IO.FileSystem.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.IO.FileSystem.DriveInfo.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.IO.FileSystem.Primitives.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.IO.FileSystem.Watcher.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.IO.IsolatedStorage.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.IO.MemoryMappedFiles.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.IO.Pipes.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.IO.UnmanagedMemoryStream.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Linq.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Linq.Expressions.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Linq.Parallel.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Linq.Queryable.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Net.Http.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Net.NameResolution.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Net.NetworkInformation.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Net.Ping.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Net.Primitives.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Net.Requests.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Net.Security.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Net.Sockets.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Net.WebHeaderCollection.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Net.WebSockets.Client.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Net.WebSockets.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.ObjectModel.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Reflection.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Reflection.Extensions.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Reflection.Primitives.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Resources.Reader.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Resources.ResourceManager.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Resources.Writer.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.Extensions.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.Handles.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.InteropServices.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.Numerics.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.Serialization.Formatters.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.Serialization.Json.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.Serialization.Primitives.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.Serialization.Xml.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Security.Claims.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Security.Cryptography.Algorithms.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Security.Cryptography.Csp.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Security.Cryptography.Encoding.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Security.Cryptography.Primitives.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Security.Cryptography.X509Certificates.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Security.Principal.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Security.SecureString.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Text.Encoding.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Text.Encoding.Extensions.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Text.RegularExpressions.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Threading.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Threading.Overlapped.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Threading.Tasks.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Threading.Tasks.Parallel.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Threading.Thread.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Threading.ThreadPool.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Threading.Timer.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.ValueTuple.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Xml.ReaderWriter.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Xml.XDocument.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Xml.XmlDocument.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Xml.XmlSerializer.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Xml.XPath.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Xml.XPath.XDocument.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\BouncyCastle.Crypto.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\ClassLibrary1.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\Google.Protobuf.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\K4os.Compression.LZ4.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\K4os.Compression.LZ4.Streams.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\K4os.Hash.xxHash.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\MySql.Data.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\Renci.SshNet.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Buffers.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Memory.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Numerics.Vectors.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\Ubiety.Dns.Core.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\Zstandard.Net.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\ClassLibrary1.pdb
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\Google.Protobuf.pdb
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\Google.Protobuf.xml
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\K4os.Compression.LZ4.xml
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\K4os.Compression.LZ4.Streams.xml
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\K4os.Hash.xxHash.xml
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\MySql.Data.xml
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\Renci.SshNet.xml
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Buffers.xml
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Memory.xml
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Numerics.Vectors.xml
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\obj\Debug\InfraestructuraPersistencia.csprojAssemblyReference.cache
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\obj\Debug\InfraestructuraPersistencia.csproj.CoreCompileInputs.cache
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\obj\Debug\InfraestructuraPersistencia.csproj.CopyComplete
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\obj\Debug\InfraestructuraPersistencia.dll
-F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\obj\Debug\InfraestructuraPersistencia.pdb
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\InfraestructuraPersistencia.dll.config
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\NPoco.5.0.0.0.Fakes.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\NPoco.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Linq.Async.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.ValueTuple.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\NPoco.5.0.0.0.Fakes.xml
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Linq.Async.xml
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.ValueTuple.xml
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\es\Microsoft.QualityTools.Testing.Fakes.resources.dll

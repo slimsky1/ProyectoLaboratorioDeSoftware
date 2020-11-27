@@ -1,19 +1,21 @@
-﻿
-using Dominio.Entidades;
+﻿using ClassLibrary1.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dominio.Repositorio
+namespace ClassLibrary1.Repositorio
 {
-   public interface IRepositoryDireccion<T> where T : Direccion
+    interface IRepositoryDireccion<T> where T : Direccion
     {
-        List<T> GetAll();
-        T GetById(int id);
-        bool Insert(T direccion);
-        bool Update(T direccion);
-        bool Delete(int id);
+
+       
+            List<T> GetAll();
+            T GetById(int id);
+            bool Insert(T cliente);
+            bool Update(T cliente);
+            bool Delete(int id);
+     
     }
 }

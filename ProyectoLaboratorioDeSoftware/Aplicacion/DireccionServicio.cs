@@ -1,8 +1,4 @@
-﻿using Dominio.Entidades;
-using Dominio.Repositorio;
-using InfraestructuraPersistencia;
-using InfraestructuraPersistencia.MySQL;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Aplicacion
 {
-    public class DireccionServicio
+    class DireccionServicio
     {
 
+        /*
         public List<Direccion> Listar()
         {
             IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
@@ -22,7 +19,7 @@ namespace Aplicacion
 
         public bool Guardar(int fkclients, String calle, int altura)
         {
-         
+
             Direccion direccion = new Direccion();
             direccion.fkClients = fkclients;
             direccion.Calle = calle;
@@ -54,5 +51,11 @@ namespace Aplicacion
             IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
             return repositorio.GetById(id);
         }
+
+
+    */
+
+
+
     }
 }

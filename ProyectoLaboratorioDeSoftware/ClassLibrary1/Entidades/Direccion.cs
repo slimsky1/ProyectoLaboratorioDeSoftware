@@ -1,15 +1,16 @@
-﻿using System;
+﻿using Dominio.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dominio.Entidades
+namespace ClassLibrary1.Entidades
 {
-
-   public class Direccion : IEntity
+    class Direccion : IEntity
     {
-        public int id  {get; set;}
+
+        public int id { get; set; }
         public int fkClients { get; set; }
         public string Calle { get; set; }
         public int Altura { get; set; }
@@ -17,7 +18,7 @@ namespace Dominio.Entidades
 
         public bool Validate()
         {
-            if(this.Calle != String.Empty)
+            if (Calle != String.Empty)
             {
 
                 return false;
@@ -30,6 +31,8 @@ namespace Dominio.Entidades
             //insert into;
             return true;
         }
+
+
 
 
 

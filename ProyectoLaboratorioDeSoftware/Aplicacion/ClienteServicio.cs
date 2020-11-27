@@ -19,19 +19,19 @@ namespace Aplicacion
             return repositorio.GetAll();
         }
 
-
-        public bool Guardar(String nombre)
+        public bool Guardar(string nombre)
         {
          
             Cliente cliente = new Cliente();
             cliente.Nombre = nombre;
-            IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
-            //if (cliente.validate() == false)
-            //{
-            //    return false;
-            //}
+            ClienteRepositorio repositorio = new ClienteRepositorio();
+            if (cliente.Validate()==false)
+            {
+                return false;
+            }
             return repositorio.Insert(cliente);
         }
+
 
         public bool Eliminar(int id)
         {

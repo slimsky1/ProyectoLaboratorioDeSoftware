@@ -43,10 +43,12 @@
   <ItemGroup>
     <Compile Include="Entidades\Direccion.cs" />
     <Compile Include="Entidades\Cliente.cs" />
+    <Compile Include="Entidades\Direccion.cs" />
     <Compile Include="Entidades\IEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio\IRepositoryDireccion.cs" />
     <Compile Include="Repositorio\IRepository.cs" />
+    <Compile Include="Repositorio\IRepositoryDireccion.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
