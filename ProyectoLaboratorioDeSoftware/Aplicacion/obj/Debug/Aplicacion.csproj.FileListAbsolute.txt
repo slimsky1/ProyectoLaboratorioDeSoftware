@@ -10,3 +10,6 @@ C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeS
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\obj\Debug\Aplicacion.dll
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\obj\Debug\Aplicacion.pdb
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\MySql.Data.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\Aplicacion.dll.config
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\NPoco.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\Aplicacion\bin\Debug\InfraestructuraPersistencia.dll.config

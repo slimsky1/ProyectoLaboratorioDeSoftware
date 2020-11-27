@@ -11,7 +11,7 @@ namespace Dominio.Repositorio
    public interface IRepository<T> where T : Cliente
     {
         List<T> GetAll();
-        T GetById();
+        T GetById(int id);
         bool Insert(T cliente);
         bool Update(T cliente);
         bool Delete(int id);

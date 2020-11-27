@@ -13,7 +13,19 @@ namespace InfraestructuraPersistencia.MySQL
     {
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            string MYSql_Statement = "delete from clients where idclients = " + id;
+            using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
+            {
+
+                conexion.Open();
+                MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
+
+                using (MySqlDataReader dr = cmd.ExecuteReader())
+                {
+                    return true;
+                }
+               
+            }
         }
 
         public List<Cliente> GetAll()
@@ -47,19 +59,53 @@ namespace InfraestructuraPersistencia.MySQL
         }
 
 
-        public Cliente GetById()
+        public Cliente GetById(int id)
         {
-            throw new NotImplementedException();
+            string MYSql_Statement = "select idclients, nombre from clients where idclients = " + id;
+            Cliente resultado = new Cliente();
+            using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
+            {
+                conexion.Open();
+                MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
+                using (MySqlDataReader dr = cmd.ExecuteReader())
+                {
+                    while (dr.Read())
+                    {
+                        resultado = Mapper(dr);
+                    }
+                }
+            }
+
+            return resultado;
         }
 
         public bool Insert(Cliente cliente)
         {
-            return true;
+            string MYSql_Statement = "insert into clients (nombre) values ('" + cliente.Nombre + "')";
+            using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
+            {
+
+                conexion.Open();
+                MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
+                using (MySqlDataReader dr = cmd.ExecuteReader())
+                {
+                    return true;
+                }
+            }
         }
 
         public bool Update(Cliente cliente)
         {
-            throw new NotImplementedException();
+
+            string MYSql_Statement = "update clients set nombre = '" + cliente.Nombre + "' where idclients = " + cliente.id;
+            using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
+            {
+                MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
+                using (MySqlDataReader dr = cmd.ExecuteReader())
+                {
+                    return true;
+                }
+            }
         }
-    }
+     }
 }

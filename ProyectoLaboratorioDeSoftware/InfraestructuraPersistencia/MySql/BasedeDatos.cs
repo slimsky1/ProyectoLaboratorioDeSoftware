@@ -1,15 +1,15 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InfraestructuraPersistencia
+namespace InfraestructuraPersistencia.MySQL
 {
     public class BasedeDatos
     {
+        
 
         private static BasedeDatos _instancia = null;
         private string stringConection = "datasource=127.0.0.1;port=3306;username=root;password=40252507;database=labdesoft1;";
