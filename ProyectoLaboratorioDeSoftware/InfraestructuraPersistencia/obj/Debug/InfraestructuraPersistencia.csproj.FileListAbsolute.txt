@@ -24,3 +24,5 @@ C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeS
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.ValueTuple.xml
 C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Data.SqlClient.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\InfraestructuraPersistencia\bin\Debug\System.Data.SqlClient.xml
