@@ -27,9 +27,6 @@ namespace Presentación
             Console.WriteLine("Valor Cliente 2: " + id2Get.Nombre);
 
             //cs.Guardar("Carlos");
-
-
-
             //cs.Eliminar(4);
 
 

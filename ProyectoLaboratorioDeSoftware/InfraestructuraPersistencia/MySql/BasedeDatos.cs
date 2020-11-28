@@ -12,7 +12,7 @@ namespace InfraestructuraPersistencia.MySQL
         
 
         private static BasedeDatos _instancia = null;
-        private string stringConection = "datasource=127.0.0.1;port=3306;username=root;password=40252507;database=labdesoft1;";
+        private string stringConection = System.Configuration.ConfigurationManager.ConnectionStrings["MySQLServerConnection"].ConnectionString;
         private MySqlConnection conexion = null;
 
         private BasedeDatos()
