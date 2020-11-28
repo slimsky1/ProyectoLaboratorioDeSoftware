@@ -1,4 +1,5 @@
-﻿using Dominio.Entidades;
+﻿using ClassLibrary1.Entidades;
+using Dominio.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1.Entidades
 {
-    class Direccion : IEntity
+    public class Direccion : IEntity
     {
 
         public int id { get; set; }

@@ -1,6 +1,6 @@
-﻿
-using Dominio.Entidades;
-using Dominio.Repositorio;
+﻿using ClassLibrary1.Entidades;
+using ClassLibrary1.Repositorio;
+using InfraestructuraPersistencia.MySQL;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -10,39 +10,39 @@ using System.Threading.Tasks;
 
 namespace InfraestructuraPersistencia.MySQL
 {
-    public class ClienteRepositorio : IRepository<Cliente>
+
+    public class DireccionRepositorio : IRepositoryDireccion<Direccion>
+
     {
+
         public bool Delete(int id)
         {
-            string MYSql_Statement = "delete from clients where idclients = " + id;
+            string MYSql_Statement = "delete from direcciones where iddirecciones = " + id;
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
-
                 conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
-
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {
                     return true;
                 }
-               
+
             }
         }
 
-        public List<Cliente> GetAll()
+        public List<Direccion> GetAll()
         {
-            const string MYSql_Statement = "select idclients, nombre from clients";
-            List<Cliente> resultado = new List<Cliente>();
+            const string MYSql_Statement = "select iddomicilios, calle, altura from direcciones";
+            List<Direccion> resultado = new List<Direccion>();
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
-                conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {
                     while (dr.Read())
                     {
-                        Cliente cliente = Mapper(dr);
-                        resultado.Add(cliente);
+                        Direccion direccion = Mapper(dr);
+                        resultado.Add(direccion);
                     }
                 }
             }
@@ -52,23 +52,26 @@ namespace InfraestructuraPersistencia.MySQL
         }
 
 
-        private Cliente Mapper(MySqlDataReader dr)
+        private Direccion Mapper(MySqlDataReader dr)
         {
-            Cliente cliente = new Cliente();
-            cliente.id = BasedeDatos.GetDataValue<int>(dr, "idclients");
-            cliente.Nombre = BasedeDatos.GetDataValue<string>(dr, "nombre");
-            return cliente;
+            Direccion direccion = new Direccion();
+            direccion.id = BasedeDatos.GetDataValue<int>(dr, "iddirecciones");
+            direccion.Calle = BasedeDatos.GetDataValue<string>(dr, "calle");
+            direccion.Altura = BasedeDatos.GetDataValue<int>(dr, "altura");
+            return direccion;
         }
 
 
-        public Cliente GetById(int id)
-        {
-            string MYSql_Statement = "select idclients, nombre from clients where idclients = " + id;
-            Cliente resultado = new Cliente();
+        public Direccion GetById(int id) { 
+
+            string MYSql_Statement = "select iddirecciones, calle, altura from direcciones where iddirecciones = " + id;
+            Direccion resultado = new Direccion();
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
+
                 conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
+
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {
                     while (dr.Read())
@@ -81,12 +84,12 @@ namespace InfraestructuraPersistencia.MySQL
             return resultado;
         }
 
-        public bool Insert(Cliente cliente)
+        public bool Insert(Direccion direccion)
+
         {
-            string MYSql_Statement = "insert into clients (nombre) values ('" + cliente.Nombre + "')";
+            string MYSql_Statement = "insert into direcciones (fkclients, calle, altura) value (" + direccion.fkClients + ",'" + direccion.Calle + "', " + direccion.Altura + ")";
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
-
                 conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
@@ -96,10 +99,12 @@ namespace InfraestructuraPersistencia.MySQL
             }
         }
 
-        public bool Update(Cliente cliente)
-        {
 
-            string MYSql_Statement = "update clients set nombre = '" + cliente.Nombre + "' where idclients = " + cliente.id;
+        public bool Update(Direccion direccion) { 
+
+            //Cliente clientAux = GetById(cliente.id);
+
+            string MYSql_Statement = "update direcciones set calle = '" + direccion.Calle + "' where iddomicilios = " + direccion.id;
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
@@ -109,5 +114,6 @@ namespace InfraestructuraPersistencia.MySQL
                 }
             }
         }
-     }
+
+    }
 }

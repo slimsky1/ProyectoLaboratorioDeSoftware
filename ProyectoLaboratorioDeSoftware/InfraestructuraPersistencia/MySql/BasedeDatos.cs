@@ -20,14 +20,12 @@ namespace InfraestructuraPersistencia.MySQL
             try
             {
                 this.conexion = new MySqlConnection(stringConection);
-                this.conexion.Open();
-            }
-            catch (Exception ex)
+                //this.conexion.Open();
+            } catch (Exception ex)
             {
-                throw new Exception("Error!!" + ex);
+                throw new Exception("Error!!"+ ex);
             }
-
-        }
+        } 
 
         public static BasedeDatos getInstancia()
         {

@@ -1,8 +1,11 @@
 ﻿using Aplicacion;
+using ClassLibrary1.Entidades;
 using Dominio.Entidades;
+using Ninject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,72 +16,54 @@ namespace Presentación
         static void Main(string[] args)
         {
 
-            /*ClienteServicio cs = new ClienteServicio();
-            cs.Guardar("Josue");*/
 
-            ClienteServicio cs = new ClienteServicio();
-            DireccionServicio ds = new DireccionServicio();
+            /* ClienteServicio cs = new ClienteServicio();
+             List<Cliente> listado = cs.Listar();
 
-            //Boolean eliminado = cs.Eliminar(1);
-            //Boolean insertado = cs.Guardar("Gabriela");
-
-            //List<Cliente> listado = cs.Listar();
-
-            //Console.WriteLine(listado[0].Nombre);
-
-            //Console.WriteLine(insertado);
-
-            //List<Cliente> listado = cs.Listar();
-            //foreach (Cliente c in listado)
-            //{
-            //    Console.WriteLine(c.id + " " + c.Nombre);
-            //}
-
-            //Console.WriteLine();
-
-            //List<Cliente> listadoaux = cs.Listar();
-            //foreach (Cliente c in listadoaux)
-            //{
-            //    Console.WriteLine(c.id + " " + c.Nombre);
-            //}
-            //Console.ReadLine();
-
-            //Cliente cliente = cs.ObtenerClientePorId(2);
-            //Console.WriteLine(cliente.id + " " + cliente.Nombre);
-            //Console.ReadLine();
-
-            //Cliente cliente = new Cliente();
-            //cliente.id = 6;
-            //cliente.Nombre = "Florencia";
-            //Boolean modificado = cs.Modificar(cliente);
-
-            //Console.WriteLine(modificado);
-            //Console.ReadLine();
-
-            //Boolean insertDireccion = ds.Guardar(2, "Ecuador", 123);
-            //Console.WriteLine(insertDireccion);
-
-            Boolean deleteDireccion = ds.Eliminar(1);
-            Console.WriteLine(deleteDireccion);
-            Console.ReadLine();
+             DireccionServicio ds = new DireccionServicio();
+             Direccion d1 = ds.ObtenerClientePorId(2);
+             Console.WriteLine("Valor Direccion: " + d1.Calle);
 
 
-            Cliente idGet = cs.ObtenerClientePorId(2);
-            Cliente id2Get = cs.ObtenerClientePorId(3);
+             Cliente idGet = cs.ObtenerClientePorId(2);
+             Cliente id2Get = cs.ObtenerClientePorId(3);
 
-            Console.WriteLine("Valor Cliente: " + idGet.Nombre);
-            Console.WriteLine("Valor Cliente 2: " + id2Get.Nombre);
+             Console.WriteLine("Valor Cliente: " + idGet.Nombre);
+             Console.WriteLine("Valor Cliente 2: " + id2Get.Nombre);
 
-            //cs.Guardar("Carlos");
-            //cs.Eliminar(4);
+             //cs.Guardar("Carlos");
+             //cs.Eliminar(4);
 
+
+             foreach (Cliente item in listado)
+                 {
+                     Console.WriteLine(item.id + " " + item.Nombre);
+                 }
+
+                 Console.ReadLine();*/
+
+            var kernel = new StandardKernel();
+            kernel.Load(Assembly.GetExecutingAssembly());
+            var cs = kernel.Get<ClienteServicio>();
+
+            List <Cliente> listado = cs.Listar();
 
             foreach (Cliente item in listado)
-                {
-                    Console.WriteLine(item.id + " " + item.Nombre);
-                }
+            {
+                Console.WriteLine(item.id + " " + item.Nombre);
+            }
 
-                Console.ReadLine();
+
+            List<Cliente> listado2 = cs.Listar();
+
+            foreach (Cliente item2 in listado2 )
+            {
+                Console.WriteLine(item2.id + " " + item2.Nombre);
+            }
+
+
+
+            Console.ReadLine();
         }
     }
 }
