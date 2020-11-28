@@ -1,4 +1,5 @@
-﻿using Dominio.Entidades;
+﻿
+using Dominio.Entidades;
 using Dominio.Repositorio;
 using MySql.Data.MySqlClient;
 using System;
@@ -34,6 +35,7 @@ namespace InfraestructuraPersistencia.MySQL
             List<Cliente> resultado = new List<Cliente>();
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
+                conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {

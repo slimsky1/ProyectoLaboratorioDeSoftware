@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary1.Repositorio
 {
-    interface IRepositoryDireccion<T> where T : Direccion
+    public interface IRepositoryDireccion<T> where T : Direccion
     {
 
        

@@ -20,7 +20,7 @@ namespace InfraestructuraPersistencia.MySQL
             try
             {
                 this.conexion = new MySqlConnection(stringConection);
-                this.conexion.Open();
+                //this.conexion.Open();
             } catch (Exception ex)
             {
                 throw new Exception("Error!!"+ ex);

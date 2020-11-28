@@ -1,4 +1,6 @@
-﻿using Dominio.Entidades;
+﻿using ClassLibrary1.Entidades;
+using ClassLibrary1.Repositorio;
+using Dominio.Entidades;
 using Dominio.Repositorio;
 using InfraestructuraPersistencia;
 using InfraestructuraPersistencia.MySQL;
@@ -13,10 +15,19 @@ namespace Aplicacion
     public class ClienteServicio
     {
 
+        private IRepository<Cliente> _repository;
+
+        public ClienteServicio(IRepository<Cliente> repository)
+        {
+            this._repository = repository;
+        }
+
+
         public List<Cliente> Listar()
         {
-            IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
-            return repositorio.GetAll();
+            //IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
+
+            return this._repository.GetAll();
         }
 
         public bool Guardar(string nombre)
