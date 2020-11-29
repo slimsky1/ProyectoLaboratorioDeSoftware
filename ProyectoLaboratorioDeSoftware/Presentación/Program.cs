@@ -1,5 +1,4 @@
 ﻿using Aplicacion;
-using ClassLibrary1.Entidades;
 using Dominio.Entidades;
 using Ninject;
 using System;
@@ -45,6 +44,7 @@ namespace Presentación
             var kernel = new StandardKernel();
             kernel.Load(Assembly.GetExecutingAssembly());
             var cs = kernel.Get<ClienteServicio>();
+            var ds = kernel.Get<DireccionServicio>();
 
             List <Cliente> listado = cs.Listar();
 
@@ -54,11 +54,11 @@ namespace Presentación
             }
 
 
-            List<Cliente> listado2 = cs.Listar();
+            List<Direccion> listDir = ds.Listar();
 
-            foreach (Cliente item2 in listado2 )
+            foreach (Direccion dir in listDir)
             {
-                Console.WriteLine(item2.id + " " + item2.Nombre);
+                Console.WriteLine(dir.id + " " + dir.fkClients + " " + dir.Calle + " " + dir.Altura);
             }
 
 

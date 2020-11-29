@@ -12,6 +12,7 @@ namespace Presentación
         public override void Load()
         {
             Bind<Dominio.Repositorio.IRepository<Dominio.Entidades.Cliente>>().To<InfraestructuraPersistencia.MySQL.ClienteRepositorio>();
+            Bind<Dominio.Repositorio.IRepositoryDireccion<Dominio.Entidades.Direccion>>().To<InfraestructuraPersistencia.MySQL.DireccionRepositorio>();
         }
     }
 }
