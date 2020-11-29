@@ -32,12 +32,12 @@ namespace Presentación
 
             Console.WriteLine();
 
-            //List<Direccion> listDir = ds.Listar();
+            List<Direccion> listDir = ds.Listar();
 
-            //foreach (Direccion dir in listDir)
-            //{
-            //    Console.WriteLine(dir.id + " " + dir.fkClients + " " + dir.Calle + " " + dir.Altura);
-            //}
+            foreach (Direccion dir in listDir)
+            {
+                Console.WriteLine(dir.id + " " + dir.fkClients + " " + dir.Calle + " " + dir.Altura);
+            }
 
 
 
