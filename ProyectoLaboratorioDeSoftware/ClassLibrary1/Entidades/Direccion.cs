@@ -19,7 +19,7 @@ namespace Dominio.Entidades
 
         public bool Validate()
         {
-            if (Calle != String.Empty)
+            if (this.Calle == String.Empty)
             {
 
                 return false;

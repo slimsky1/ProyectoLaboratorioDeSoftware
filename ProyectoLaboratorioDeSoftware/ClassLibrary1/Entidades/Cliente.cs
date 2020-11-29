@@ -16,7 +16,7 @@ namespace Dominio.Entidades
 
         public bool Validate()
         {
-            if(this.Nombre != String.Empty)
+            if(this.Nombre == String.Empty)
             {
 
                 return false;

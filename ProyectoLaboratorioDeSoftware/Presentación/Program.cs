@@ -46,6 +46,9 @@ namespace Presentación
             var cs = kernel.Get<ClienteServicio>();
             var ds = kernel.Get<DireccionServicio>();
 
+            Boolean deleteClient = cs.Eliminar(3);
+
+
             List <Cliente> listado = cs.Listar();
 
             foreach (Cliente item in listado)
@@ -53,13 +56,14 @@ namespace Presentación
                 Console.WriteLine(item.id + " " + item.Nombre);
             }
 
+            Console.WriteLine();
 
-            List<Direccion> listDir = ds.Listar();
+            //List<Direccion> listDir = ds.Listar();
 
-            foreach (Direccion dir in listDir)
-            {
-                Console.WriteLine(dir.id + " " + dir.fkClients + " " + dir.Calle + " " + dir.Altura);
-            }
+            //foreach (Direccion dir in listDir)
+            //{
+            //    Console.WriteLine(dir.id + " " + dir.fkClients + " " + dir.Calle + " " + dir.Altura);
+            //}
 
 
 

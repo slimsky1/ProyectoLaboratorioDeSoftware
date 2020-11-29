@@ -33,12 +33,12 @@ namespace Aplicacion
          
             Cliente cliente = new Cliente();
             cliente.Nombre = nombre;
-            ClienteRepositorio repositorio = new ClienteRepositorio();
+            //ClienteRepositorio repositorio = new ClienteRepositorio();
             if (cliente.Validate()==false)
             {
                 return false;
             }
-            return repositorio.Insert(cliente);
+            return this._repository.Insert(cliente);
         }
 
 
@@ -46,20 +46,23 @@ namespace Aplicacion
         {
             Cliente cliente = new Cliente();
             cliente.id = id;
-            IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
-            return repositorio.Delete(cliente.id);
+            //IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
+            return this._repository.Delete(cliente.id);
         }
 
-        public bool Modificar(Cliente cliente)
+        public bool Modificar(int id, String nombre)
         {
-            IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
-            return repositorio.Update(cliente);
+            Cliente cliente = new Cliente();
+            cliente.id = id;
+            cliente.Nombre = nombre;
+            //IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
+            return this._repository.Update(cliente);
         }
 
         public Cliente ObtenerClientePorId(int id)
         {
-            IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
-            return repositorio.GetById(id);
+            //IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
+            return this._repository.GetById(id);
         }
     }
 }
