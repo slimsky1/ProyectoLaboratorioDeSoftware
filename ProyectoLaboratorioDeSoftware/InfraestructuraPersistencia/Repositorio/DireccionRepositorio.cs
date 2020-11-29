@@ -109,6 +109,7 @@ namespace InfraestructuraPersistencia.MySQL
             string MYSql_Statement = "update direcciones set calle = '" + direccion.Calle + "' where iddirecciones = " + direccion.id;
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
+                conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {
