@@ -21,7 +21,6 @@ namespace Aplicacion
         
         public List<Direccion> Listar()
         {
-            //IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
             return this._repository.GetAll();
         }
 
@@ -33,19 +32,16 @@ namespace Aplicacion
             direccion.fkClients = fkclients;
             direccion.Calle = calle;
             direccion.Altura = altura;
-            //IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
-            //if (cliente.validate() == false)
-            //{
-            //    return false;
-            //}
+            
+            if (direccion.Validate() == false)
+            {
+                return false;
+            }
             return this._repository.Insert(direccion);
         }
 
         public bool Eliminar(int id)
         {
-            //Direccion direccion = new Direccion();
-            //direccion.id = id;
-            //IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
             return this._repository.Delete(id);
         }
 
@@ -55,13 +51,17 @@ namespace Aplicacion
             direccion.id = id;
             direccion.Calle = calle;
             direccion.Altura = altura;
-            //IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
+           
+            if(direccion.Validate() == false)
+            {
+                return false;
+            }
+
             return this._repository.Update(direccion);
         }
 
         public Direccion ObtenerClientePorId(int id)
         {
-            //IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
             return this._repository.GetById(id);
         }
 
