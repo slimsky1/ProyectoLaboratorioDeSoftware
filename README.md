@@ -7,7 +7,7 @@ Este proyecto tiene como fin poner en practica el uso de la arquitectura DDD (Do
 # Pre-Requisitos
 Antes de ejecutar el proyecto en tu máquina deberás tener instalado [Visual Studio](https://visualstudio.microsoft.com/es/downloads/), así como un gestor de base de datos, este proyecto utilizó como gestor de base de datos [MySql](https://www.mysql.com/downloads/).
 
-# Iniciar Proyecto
+# Preparación del Proyecto
 Una ves que ya se haya descargado y abierto el proyecto se deberán seguir los siguientes pasos.
 * Dentro de la carpeta del proyecto se encontrará una carpeta llamada **BBDD**, dentro de esta se encontrarán 2 scripts correspondientes a las 2 tablas necesarias en la base de datos, deberán  ejecutarse para poder utilizarlas en el proyecto.
 * Dentro de Visual Studio, en el namespace llamado **InfraestructuraPersistencia** se deberá agregar el paquete **MySql.Data**.
@@ -21,3 +21,6 @@ Una ves que ya se haya descargado y abierto el proyecto se deberán seguir los s
 * Dependiendo la versión de Visual Studio instalada puede darse el caso de que en el namespace **LaboratorioTest** arrojen errores que se solucionan instalando, o en el caso de ya tenerlos actualizando los paquetes **MSTest.TestAdapter** y **MSTest.TestFramework**.
 
 Siguiendo estos pasos el proyecto debería estar listo para ejecutarse.
+
+# Probar Proyecto
+Para probar las funcionalidades del proyecto se deberán descomentar los métodos que se deseen probar en la clase **Program.cs** dentro del namespace **Presentacion**. Para cada funcionalidad hay una linea coentada con una descripción de su función.
