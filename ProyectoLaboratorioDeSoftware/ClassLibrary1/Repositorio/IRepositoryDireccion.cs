@@ -9,8 +9,7 @@ namespace Dominio.Repositorio
 {
     public interface IRepositoryDireccion<T> where T : Direccion
     {
-
-       
+              
             List<T> GetAll();
             T GetById(int id);
             bool Insert(T cliente);
