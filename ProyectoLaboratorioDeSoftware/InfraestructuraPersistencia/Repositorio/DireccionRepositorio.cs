@@ -1,5 +1,5 @@
-﻿using ClassLibrary1.Entidades;
-using ClassLibrary1.Repositorio;
+﻿using Dominio.Entidades;
+using Dominio.Repositorio;
 using InfraestructuraPersistencia.MySQL;
 using MySql.Data.MySqlClient;
 using System;
@@ -32,10 +32,11 @@ namespace InfraestructuraPersistencia.MySQL
 
         public List<Direccion> GetAll()
         {
-            const string MYSql_Statement = "select iddomicilios, calle, altura from direcciones";
+            const string MYSql_Statement = "select iddirecciones, fkclients, calle, altura from direcciones";
             List<Direccion> resultado = new List<Direccion>();
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
+                conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {
@@ -56,6 +57,7 @@ namespace InfraestructuraPersistencia.MySQL
         {
             Direccion direccion = new Direccion();
             direccion.id = BasedeDatos.GetDataValue<int>(dr, "iddirecciones");
+            direccion.fkClients = BasedeDatos.GetDataValue<int>(dr, "fkclients");
             direccion.Calle = BasedeDatos.GetDataValue<string>(dr, "calle");
             direccion.Altura = BasedeDatos.GetDataValue<int>(dr, "altura");
             return direccion;
@@ -64,7 +66,7 @@ namespace InfraestructuraPersistencia.MySQL
 
         public Direccion GetById(int id) { 
 
-            string MYSql_Statement = "select iddirecciones, calle, altura from direcciones where iddirecciones = " + id;
+            string MYSql_Statement = "select iddirecciones, fkclients, calle, altura from direcciones where iddirecciones = " + id;
             Direccion resultado = new Direccion();
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
@@ -104,7 +106,7 @@ namespace InfraestructuraPersistencia.MySQL
 
             //Cliente clientAux = GetById(cliente.id);
 
-            string MYSql_Statement = "update direcciones set calle = '" + direccion.Calle + "' where iddomicilios = " + direccion.id;
+            string MYSql_Statement = "update direcciones set calle = '" + direccion.Calle + "' where iddirecciones = " + direccion.id;
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);

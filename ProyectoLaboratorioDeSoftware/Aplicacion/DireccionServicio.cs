@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClassLibrary1.Entidades;
-using ClassLibrary1.Repositorio;
+using Dominio.Entidades;
+using Dominio.Repositorio;
 using InfraestructuraPersistencia;
 using InfraestructuraPersistencia.MySQL;
 
@@ -12,12 +12,17 @@ namespace Aplicacion
 {
    public class DireccionServicio
     {
+        private IRepositoryDireccion<Direccion> _repository;
 
+        public DireccionServicio(IRepositoryDireccion<Direccion> repository)
+        {
+            this._repository = repository;
+        }
         
         public List<Direccion> Listar()
         {
-            IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
-            return repositorio.GetAll();
+            //IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
+            return this._repository.GetAll();
         }
 
 

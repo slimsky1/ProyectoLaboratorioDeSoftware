@@ -1,6 +1,4 @@
-﻿using ClassLibrary1.Entidades;
-using ClassLibrary1.Repositorio;
-using Dominio.Entidades;
+﻿using Dominio.Entidades;
 using Dominio.Repositorio;
 using InfraestructuraPersistencia;
 using InfraestructuraPersistencia.MySQL;
