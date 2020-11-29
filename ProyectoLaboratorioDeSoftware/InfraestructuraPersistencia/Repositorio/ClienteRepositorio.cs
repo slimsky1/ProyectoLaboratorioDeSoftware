@@ -102,6 +102,7 @@ namespace InfraestructuraPersistencia.MySQL
             string MYSql_Statement = "update clients set nombre = '" + cliente.Nombre + "' where idclients = " + cliente.id;
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
+                conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {

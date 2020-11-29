@@ -33,32 +33,32 @@ namespace Aplicacion
             direccion.fkClients = fkclients;
             direccion.Calle = calle;
             direccion.Altura = altura;
-            IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
+            //IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
             //if (cliente.validate() == false)
             //{
             //    return false;
             //}
-            return repositorio.Insert(direccion);
+            return this._repository.Insert(direccion);
         }
 
         public bool Eliminar(int id)
         {
-            Direccion direccion = new Direccion();
-            direccion.id = id;
-            IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
-            return repositorio.Delete(direccion.id);
+            //Direccion direccion = new Direccion();
+            //direccion.id = id;
+            //IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
+            return this._repository.Delete(id);
         }
 
         public bool Modificar(Direccion direccion)
         {
-            IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
-            return repositorio.Update(direccion);
+            //IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
+            return this._repository.Update(direccion);
         }
 
         public Direccion ObtenerClientePorId(int id)
         {
-            IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
-            return repositorio.GetById(id);
+            //IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
+            return this._repository.GetById(id);
         }
 
 
