@@ -1,12 +1,13 @@
-﻿using ClassLibrary1.Entidades;
+﻿using Dominio.Entidades;
 using Dominio.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1.Entidades
+namespace Dominio.Entidades
 {
     public class Direccion : IEntity
     {
@@ -19,9 +20,14 @@ namespace ClassLibrary1.Entidades
 
         public bool Validate()
         {
-            if (Calle != String.Empty)
-            {
+            bool isValidStreet = Regex.IsMatch(
+                this.Calle,
+                @"^(?![\s.]+$)[a-zA-Z\s.]*$",
+                RegexOptions.Compiled | RegexOptions.IgnoreCase | RegexOptions.CultureInvariant
+            );
 
+            if (this.Calle == String.Empty || isValidStreet == false)
+            {
                 return false;
             }
             return true;

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClassLibrary1.Entidades;
-using ClassLibrary1.Repositorio;
+using Dominio.Entidades;
+using Dominio.Repositorio;
 using InfraestructuraPersistencia;
 using InfraestructuraPersistencia.MySQL;
 
@@ -12,12 +12,16 @@ namespace Aplicacion
 {
    public class DireccionServicio
     {
+        private IRepositoryDireccion<Direccion> _repository;
 
+        public DireccionServicio(IRepositoryDireccion<Direccion> repository)
+        {
+            this._repository = repository;
+        }
         
         public List<Direccion> Listar()
         {
-            IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
-            return repositorio.GetAll();
+            return this._repository.GetAll();
         }
 
 
@@ -28,32 +32,37 @@ namespace Aplicacion
             direccion.fkClients = fkclients;
             direccion.Calle = calle;
             direccion.Altura = altura;
-            IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
-            //if (cliente.validate() == false)
-            //{
-            //    return false;
-            //}
-            return repositorio.Insert(direccion);
+            
+            if (direccion.Validate() == false)
+            {
+                return false;
+            }
+            return this._repository.Insert(direccion);
         }
 
         public bool Eliminar(int id)
         {
-            Direccion direccion = new Direccion();
-            direccion.id = id;
-            IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
-            return repositorio.Delete(direccion.id);
+            return this._repository.Delete(id);
         }
 
-        public bool Modificar(Direccion direccion)
+        public bool Modificar(int id, String calle, int altura)
         {
-            IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
-            return repositorio.Update(direccion);
+            Direccion direccion = new Direccion();
+            direccion.id = id;
+            direccion.Calle = calle;
+            direccion.Altura = altura;
+           
+            if(direccion.Validate() == false)
+            {
+                return false;
+            }
+
+            return this._repository.Update(direccion);
         }
 
         public Direccion ObtenerClientePorId(int id)
         {
-            IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
-            return repositorio.GetById(id);
+            return this._repository.GetById(id);
         }
 
 

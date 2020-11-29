@@ -1,5 +1,4 @@
 ﻿using Aplicacion;
-using ClassLibrary1.Entidades;
 using Dominio.Entidades;
 using Ninject;
 using System;
@@ -16,35 +15,13 @@ namespace Presentación
         static void Main(string[] args)
         {
 
-
-            /* ClienteServicio cs = new ClienteServicio();
-             List<Cliente> listado = cs.Listar();
-
-             DireccionServicio ds = new DireccionServicio();
-             Direccion d1 = ds.ObtenerClientePorId(2);
-             Console.WriteLine("Valor Direccion: " + d1.Calle);
-
-
-             Cliente idGet = cs.ObtenerClientePorId(2);
-             Cliente id2Get = cs.ObtenerClientePorId(3);
-
-             Console.WriteLine("Valor Cliente: " + idGet.Nombre);
-             Console.WriteLine("Valor Cliente 2: " + id2Get.Nombre);
-
-             //cs.Guardar("Carlos");
-             //cs.Eliminar(4);
-
-
-             foreach (Cliente item in listado)
-                 {
-                     Console.WriteLine(item.id + " " + item.Nombre);
-                 }
-
-                 Console.ReadLine();*/
-
             var kernel = new StandardKernel();
             kernel.Load(Assembly.GetExecutingAssembly());
             var cs = kernel.Get<ClienteServicio>();
+            var ds = kernel.Get<DireccionServicio>();
+
+            Boolean deleteClient = cs.Eliminar(3);
+
 
             List <Cliente> listado = cs.Listar();
 
@@ -53,13 +30,14 @@ namespace Presentación
                 Console.WriteLine(item.id + " " + item.Nombre);
             }
 
+            Console.WriteLine();
 
-            List<Cliente> listado2 = cs.Listar();
+            //List<Direccion> listDir = ds.Listar();
 
-            foreach (Cliente item2 in listado2 )
-            {
-                Console.WriteLine(item2.id + " " + item2.Nombre);
-            }
+            //foreach (Direccion dir in listDir)
+            //{
+            //    Console.WriteLine(dir.id + " " + dir.fkClients + " " + dir.Calle + " " + dir.Altura);
+            //}
 
 
 

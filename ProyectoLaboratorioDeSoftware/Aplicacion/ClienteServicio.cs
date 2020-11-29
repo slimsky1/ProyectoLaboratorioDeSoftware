@@ -1,6 +1,4 @@
-﻿using ClassLibrary1.Entidades;
-using ClassLibrary1.Repositorio;
-using Dominio.Entidades;
+﻿using Dominio.Entidades;
 using Dominio.Repositorio;
 using InfraestructuraPersistencia;
 using InfraestructuraPersistencia.MySQL;
@@ -25,8 +23,6 @@ namespace Aplicacion
 
         public List<Cliente> Listar()
         {
-            //IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
-
             return this._repository.GetAll();
         }
 
@@ -35,33 +31,37 @@ namespace Aplicacion
          
             Cliente cliente = new Cliente();
             cliente.Nombre = nombre;
-            ClienteRepositorio repositorio = new ClienteRepositorio();
+
             if (cliente.Validate()==false)
             {
                 return false;
             }
-            return repositorio.Insert(cliente);
+            return this._repository.Insert(cliente);
         }
 
 
         public bool Eliminar(int id)
         {
-            Cliente cliente = new Cliente();
-            cliente.id = id;
-            IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
-            return repositorio.Delete(cliente.id);
+            return this._repository.Delete(id);
         }
 
-        public bool Modificar(Cliente cliente)
+        public bool Modificar(int id, String nombre)
         {
-            IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
-            return repositorio.Update(cliente);
+            Cliente cliente = new Cliente();
+            cliente.id = id;
+            cliente.Nombre = nombre;
+            
+            if(cliente.Validate() == false)
+            {
+                return false;
+            }
+
+            return this._repository.Update(cliente);
         }
 
         public Cliente ObtenerClientePorId(int id)
         {
-            IRepository<Cliente> repositorio = new InfraestructuraPersistencia.MySQL.ClienteRepositorio();
-            return repositorio.GetById(id);
+            return this._repository.GetById(id);
         }
     }
 }
