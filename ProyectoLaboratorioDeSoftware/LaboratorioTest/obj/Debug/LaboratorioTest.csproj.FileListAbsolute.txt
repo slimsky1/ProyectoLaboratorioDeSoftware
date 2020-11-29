@@ -17,3 +17,16 @@ F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLab
 F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\obj\Debug\LaboratorioTest.csproj.CopyComplete
 F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\obj\Debug\LaboratorioTest.dll
 F:\Programacion\Visual Studio C#\Repos\ProyectoLaboratorioDeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\obj\Debug\LaboratorioTest.pdb
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\bin\Debug\Dominio.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\bin\Debug\Dominio.pdb
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\obj\Debug\LaboratorioTest.csprojAssemblyReference.cache
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\obj\Debug\LaboratorioTest.csproj.CoreCompileInputs.cache
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\obj\Debug\LaboratorioTest.csproj.CopyComplete
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\obj\Debug\LaboratorioTest.dll
+C:\Users\JosBen\Documents\Practica Concurrente y Paralela\ProyectoLaboratoriodeSoftware\ProyectoLaboratorioDeSoftware\LaboratorioTest\obj\Debug\LaboratorioTest.pdb
