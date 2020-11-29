@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Text.RegularExpressions;
 using Dominio.Entidades;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
