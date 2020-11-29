@@ -106,7 +106,7 @@ namespace InfraestructuraPersistencia.MySQL
 
             //Cliente clientAux = GetById(cliente.id);
 
-            string MYSql_Statement = "update direcciones set calle = '" + direccion.Calle + "' where iddirecciones = " + direccion.id;
+            string MYSql_Statement = "update direcciones set calle = '" + direccion.Calle + "', altura = '"+ direccion.Altura + "' where iddirecciones = " + direccion.id;
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
                 conexion.Open();

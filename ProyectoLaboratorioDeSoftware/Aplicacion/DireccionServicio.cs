@@ -49,8 +49,12 @@ namespace Aplicacion
             return this._repository.Delete(id);
         }
 
-        public bool Modificar(Direccion direccion)
+        public bool Modificar(int id, String calle, int altura)
         {
+            Direccion direccion = new Direccion();
+            direccion.id = id;
+            direccion.Calle = calle;
+            direccion.Altura = altura;
             //IRepositoryDireccion<Direccion> repositorio = new InfraestructuraPersistencia.MySQL.DireccionRepositorio();
             return this._repository.Update(direccion);
         }
