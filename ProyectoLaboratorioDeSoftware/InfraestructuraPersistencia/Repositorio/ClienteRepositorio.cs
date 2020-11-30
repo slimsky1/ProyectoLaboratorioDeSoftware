@@ -18,7 +18,7 @@ namespace InfraestructuraPersistencia.MySQL
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
 
-                conexion.Open();
+                //conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
 
                 using (MySqlDataReader dr = cmd.ExecuteReader())
@@ -35,7 +35,7 @@ namespace InfraestructuraPersistencia.MySQL
             List<Cliente> resultado = new List<Cliente>();
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
-                conexion.Open();
+                //conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {
@@ -67,7 +67,7 @@ namespace InfraestructuraPersistencia.MySQL
             Cliente resultado = new Cliente();
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
-                conexion.Open();
+                //conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {
@@ -87,7 +87,7 @@ namespace InfraestructuraPersistencia.MySQL
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
 
-                conexion.Open();
+                //conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {
@@ -102,7 +102,7 @@ namespace InfraestructuraPersistencia.MySQL
             string MYSql_Statement = "update clients set nombre = '" + cliente.Nombre + "' where idclients = " + cliente.id;
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
-                conexion.Open();
+                //conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {

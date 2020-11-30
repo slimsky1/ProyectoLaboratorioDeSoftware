@@ -20,7 +20,7 @@ namespace InfraestructuraPersistencia.MySQL
             string MYSql_Statement = "delete from direcciones where iddirecciones = " + id;
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
-                conexion.Open();
+                //conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {
@@ -36,7 +36,7 @@ namespace InfraestructuraPersistencia.MySQL
             List<Direccion> resultado = new List<Direccion>();
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
-                conexion.Open();
+                //conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {
@@ -71,7 +71,7 @@ namespace InfraestructuraPersistencia.MySQL
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
 
-                conexion.Open();
+                //conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
 
                 using (MySqlDataReader dr = cmd.ExecuteReader())
@@ -92,7 +92,7 @@ namespace InfraestructuraPersistencia.MySQL
             string MYSql_Statement = "insert into direcciones (fkclients, calle, altura) value (" + direccion.fkClients + ",'" + direccion.Calle + "', " + direccion.Altura + ")";
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
-                conexion.Open();
+                //conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {
@@ -109,7 +109,7 @@ namespace InfraestructuraPersistencia.MySQL
             string MYSql_Statement = "update direcciones set calle = '" + direccion.Calle + "', altura = '"+ direccion.Altura + "' where iddirecciones = " + direccion.id;
             using (MySqlConnection conexion = BasedeDatos.getInstancia().getConexion())
             {
-                conexion.Open();
+                //conexion.Open();
                 MySqlCommand cmd = new MySqlCommand(MYSql_Statement, conexion);
                 using (MySqlDataReader dr = cmd.ExecuteReader())
                 {

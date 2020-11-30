@@ -18,7 +18,11 @@ namespace Aplicacion
         {
             this._repository = repository;
         }
-        
+
+        public DireccionServicio()
+        {
+        }
+
         public List<Direccion> Listar()
         {
             return this._repository.GetAll();

@@ -20,6 +20,9 @@ namespace Aplicacion
             this._repository = repository;
         }
 
+        public ClienteServicio()
+        {
+        }
 
         public List<Cliente> Listar()
         {

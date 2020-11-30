@@ -39,7 +39,13 @@ namespace InfraestructuraPersistencia.MySQL
 
         public MySqlConnection getConexion()
         {
-            return _instancia.conexion;
+          
+                if (this.conexion != null && this.conexion.State == System.Data.ConnectionState.Closed)
+                {
+                    this.conexion.Open();
+                }
+                return _instancia.conexion;
+            
         }
 
         public static T GetDataValue<T>(MySqlDataReader dr, string columna)
